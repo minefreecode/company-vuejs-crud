@@ -1,3 +1,4 @@
+//Экшены
 const actions = {
   openAlertBox ({ commit }, [
     alertType,

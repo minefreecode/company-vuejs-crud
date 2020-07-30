@@ -2,6 +2,7 @@ import Vue from 'vue'
 import api from '@/config/api'
 import auth from '@/config/auth'
 
+//Вспомогательная функция получения Url
 const getUrl = (url) => {
   let urlArray = []
   if (auth.api) {
@@ -18,8 +19,9 @@ const getUrl = (url) => {
   urlArray.push(url)
   return urlArray.join('/')
 }
-
+//Экшены
 const actions = {
+  //Экшен 'Вход'
   login ({ commit }, credential) {
     commit('loginWait', true)
     return new Promise((resolve) => {
@@ -36,6 +38,7 @@ const actions = {
         })
     })
   },
+  //Экшен 'Выход'
   logout ({ commit }) {
     return new Promise((resolve) => {
       const path = auth.paths.logout || 'logout'
@@ -47,6 +50,7 @@ const actions = {
         })
     })
   },
+  //Экшен 'Получить пользователя'
   getUser ({ commit }) {
     return new Promise((resolve) => {
       const path = auth.paths.getUser || 'user'
@@ -64,6 +68,7 @@ const actions = {
         })
     })
   },
+  //Экшен 'Обновить токен'
   refreshToken ({
     commit,
   }, data) {
@@ -74,6 +79,7 @@ const actions = {
         commit('refreshToken', result)
       })
   },
+  //Экшен 'Редактировать пользователя'
   editUser ({ commit, dispatch }, data) {
     const path = auth.paths.editUser || 'user'
     Vue.http.post(getUrl(path), data)
@@ -87,6 +93,7 @@ const actions = {
         ], { root: true })
       })
   },
+  //Экшен 'Редактировать пароль'
   editPassword ({
     commit,
     dispatch,
