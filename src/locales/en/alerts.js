@@ -1,4 +1,3 @@
-//Импортируем объект локализации сообщений
 export default {
   updated: 'Updated',
   updateError: 'Error! Update unsuccessful',
