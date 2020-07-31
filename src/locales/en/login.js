@@ -1,5 +1,5 @@
 export default {
-  title: 'Vue CRUD',
+  title: 'Company',
   login: 'E-mail',
   username: 'Username',
   password: 'Password',

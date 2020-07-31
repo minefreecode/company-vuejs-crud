@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import store from '@/store/index'
 
-import pl from './pl/index'
+import pl from './ru/index'
 import en from './en/index'
 
 Vue.use(VueI18n)

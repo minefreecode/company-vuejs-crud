@@ -1,13 +1,13 @@
 export default {
-  title: 'Vue CRUD',
+  title: 'Company',
   locales: [
     {
       name: 'en',
       text: 'English',
     },
     {
-      name: 'pl',
-      text: 'Polski',
+      name: 'ru',
+      text: 'Русский',
     },
   ],
   defaultLocale: 'en',
