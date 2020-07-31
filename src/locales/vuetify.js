@@ -1,5 +1,5 @@
-import pl from 'vuetify/src/locale/pl.ts'
+import ru from 'vuetify/src/locale/ru.ts'
 
 export default {
-  pl,
+  ru,
 }

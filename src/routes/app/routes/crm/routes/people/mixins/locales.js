@@ -1,21 +1,21 @@
 export default {
   i18n: {
     messages: {
-      pl: {
-        detailsTitle: 'Osoba',
+      ru: {
+        detailsTitle: 'Персона',
         buttons: {
-          goToItem: 'Przejdź do osoby',
+          goToItem: 'Идти к персоне',
         },
         fields: {
           id: 'Id',
-          firstname: 'Imię',
-          lastname: 'Nazwisko',
-          fullname: 'Imię i Nazwisko',
-          distinction: 'Wyróżnik',
-          sex: 'Płeć',
-          language: 'Język',
+          firstname: 'Фамилия',
+          lastname: 'Отчество',
+          fullname: 'Полное имя',
+          distinction: 'Уроженец',
+          sex: 'Пол',
+          language: 'Язык',
           email: 'E-mail',
-          phone: 'Telefon',
+          phone: 'Телефон',
         },
       },
       en: {

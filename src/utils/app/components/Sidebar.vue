@@ -65,7 +65,9 @@
     </v-list>
     <slot name="over"></slot>
     <v-list dense>
+      <!--Цикл по основным элементам лего меню -->
       <template v-for="(item) in items">
+        <!-- Для вложенных циклов-->
         <v-list-group
           v-if="checkPermission(item.guard)"
           v-model="item.model"
@@ -85,6 +87,7 @@
             </v-list-item-action>
           </v-list-item>
           <template v-if="!$store.state.sidebarMini">
+            <!-- Цикл по вложенным элементам. Куда переходить указываем в свойстве v-list-item -->
             <v-list-item v-for="(child, i) in item.children" :key="i" :href="'#' + item.route + child.route" class="link">
               <v-list-item-action v-if="child.icon">
                 <v-icon>{{ child.icon }}</v-icon>

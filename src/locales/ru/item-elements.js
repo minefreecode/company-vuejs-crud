@@ -1,0 +1,31 @@
+export default {
+  available: 'Доступно',
+  selected: 'Выбрано',
+  noItemsSelected: 'Нет выбранных элементов',
+  confirm: 'Вы уверены?',
+  fields: {
+    action: 'Действие',
+    name: 'Имя',
+    added: 'Добавлено',
+  },
+  status: {
+    title: 'Статус',
+    added: 'Добавлено',
+    noAdded: 'Не добавлено',
+  },
+  search: 'Поиск',
+  noMatchingResults: 'Соответствующих полей не найдено',
+  noDataAvailable: 'Нет доступных данных',
+  rowsPerPageText: 'Строк на одну страницу:',
+  records: 'Записи',
+  from: 'от',
+  add: 'Добавлено',
+  all: 'Все',
+  buttons: {
+    remove: 'Удалить',
+    add: 'Добавить',
+    removeMany: 'Удалить много',
+    addMany: 'Добавить много',
+    close: 'Закрыть',
+  },
+}

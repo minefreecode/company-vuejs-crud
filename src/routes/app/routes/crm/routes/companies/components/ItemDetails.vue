@@ -63,7 +63,7 @@ export default {
   },
   i18n: {
     messages: {
-      pl: {
+      ru: {
         title: 'Szczegóły firmy',
         basicInformation: 'Dane podstawowe',
         positions: 'Stanowiska',
