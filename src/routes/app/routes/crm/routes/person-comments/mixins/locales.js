@@ -1,15 +1,15 @@
 export default {
   i18n: {
     messages: {
-      pl: {
-        detailsTitle: 'Osoba - komentarz',
+      ru: {
+        detailsTitle: 'Персона - комменты',
         fields: {
           id: 'Id',
-          person: 'Osoba',
-          user: 'Autor',
-          userEmail: 'E-mail autora',
-          commentType: 'Typ komentarza',
-          content: 'Treść',
+          person: 'Персона',
+          user: 'Автор',
+          userEmail: 'E-mail автора',
+          commentType: 'Тип комментария',
+          content: 'Контент',
         },
       },
       en: {
