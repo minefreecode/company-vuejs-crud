@@ -1,14 +1,14 @@
 export default {
   i18n: {
     messages: {
-      pl: {
-        detailsTitle: 'Firma',
+      ru: {
+        detailsTitle: 'Фирма',
         buttons: {
-          goToItem: 'Przejdź do firmy',
+          goToItem: 'Идти к фирме',
         },
         fields: {
           id: 'Id',
-          name: 'Nazwa',
+          name: 'Имя',
           commonName: 'Nazwa użytkowa',
           companyType: 'Typ firmy',
           nip: 'NIP',

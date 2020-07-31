@@ -88,7 +88,7 @@ export default {
   },
   i18n: {
     messages: {
-      pl: {
+      ru: {
         detailsTitle: 'Stanowisko - zadanie',
         fields: {
           id: 'Id',

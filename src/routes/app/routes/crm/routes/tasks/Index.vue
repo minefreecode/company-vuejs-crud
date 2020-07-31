@@ -43,11 +43,11 @@ export default {
   },
   i18n: {
     messages: {
-      pl: {
-        detailsTitle: 'Zadanie',
+      ru: {
+        detailsTitle: 'Задание',
         fields: {
           id: 'Id',
-          name: 'Nazwa',
+          name: 'Имя',
         },
       },
       en: {

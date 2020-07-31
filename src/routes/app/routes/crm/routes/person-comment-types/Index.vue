@@ -43,7 +43,7 @@ export default {
   },
   i18n: {
     messages: {
-      pl: {
+      ru: {
         detailsTitle: 'Osoby - typ komentarza',
         fields: {
           id: 'Id',

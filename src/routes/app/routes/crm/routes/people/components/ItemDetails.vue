@@ -59,11 +59,11 @@ export default {
   },
   i18n: {
     messages: {
-      pl: {
-        title: 'Szczegóły osoby',
-        basicInformation: 'Dane podstawowe',
-        positions: 'Stanowiska',
-        comments: 'Komentarze',
+      ru: {
+        title: 'Персональные детали',
+        basicInformation: 'Основная информация',
+        positions: 'Позиции',
+        comments: 'Комментарии',
       },
       en: {
         title: 'Person details',

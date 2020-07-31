@@ -73,7 +73,7 @@ export default {
   },
   i18n: {
     messages: {
-      pl: {
+      ru: {
         detailsTitle: 'Uprawnienie',
         fields: {
           id: 'Id',
