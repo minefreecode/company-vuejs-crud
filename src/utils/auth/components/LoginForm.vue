@@ -61,7 +61,7 @@
               color="secondary"
               class="mb-2"
             >
-              <v-icon>translate</v-icon>
+              <v-icon>language</v-icon>
             </v-btn>
           </template>
           <v-list>
