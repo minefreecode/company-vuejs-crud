@@ -23,4 +23,8 @@ export default {
     users: 'Users',
     userPermissions: 'Users - permissions',
   },
+  contribution: {
+    name: 'Contribution',
+    personsContributions: 'Persons - contributions',
+  },
 }

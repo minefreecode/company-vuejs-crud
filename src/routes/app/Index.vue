@@ -172,11 +172,11 @@ export default {
         text: 'contribution.name',
         model: false,
         guard: 'CONTRIB',
-        route: '/persons-contributions',
+        route: '/contribution',
         children: [
           {
-            text: 'admin.users',
-            route: '/users',
+            text: 'contribution.personsContributions',
+            route: '/persons-contributions',
           },
         ],
       },
