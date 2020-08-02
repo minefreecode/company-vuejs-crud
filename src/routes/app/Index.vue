@@ -167,6 +167,19 @@ export default {
           },
         ],
       },
+      {
+        icon: 'contribution',
+        text: 'contribution.name',
+        model: false,
+        guard: 'CONTRIBUTION',
+        route: '/persons-contributions',
+        children: [
+          {
+            text: 'admin.users',
+            route: '/users',
+          },
+        ],
+      },
     ],
   }),
   computed: {
