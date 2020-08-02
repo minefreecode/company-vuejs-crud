@@ -15,7 +15,7 @@ export default {
             text: 'fullname',
             data: [],
           },
-          column: 'person_id',
+          column: 'people_id',
           text: this.$t('fields.person'),
           name: 'person',
           apiObject: {
@@ -23,43 +23,23 @@ export default {
           },
         },
         {
-          text: this.$t('fields.user'),
-          name: 'user',
+          type: 'textarea',
+          column: 'title',
+          text: this.$t('fields.title'),
+          name: 'title',
           apiObject: {
-            name: 'user.name',
+            name: 'title',
+            functions: ['croppedText'],
           },
-          details: false,
-        },
-        {
-          text: this.$t('fields.userEmail'),
-          name: 'userEmail',
-          apiObject: {
-            name: 'user.email',
-          },
-          details: false,
-        },
-        {
-          type: 'select',
-          url: 'crm/person-comment-types',
-          list: {
-            value: 'id',
-            text: 'name',
-            data: [],
-          },
-          column: 'person_comment_type_id',
-          text: this.$t('fields.commentType'),
-          name: 'personCommentType',
-          apiObject: {
-            name: 'person_comment_type.name',
-          },
+          multiedit: false,
         },
         {
           type: 'textarea',
-          column: 'content',
-          text: this.$t('fields.content'),
-          name: 'content',
+          column: 'description',
+          text: this.$t('fields.description'),
+          name: 'description',
           apiObject: {
-            name: 'content',
+            name: 'description',
             functions: ['croppedText'],
           },
           multiedit: false,

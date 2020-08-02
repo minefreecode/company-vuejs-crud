@@ -23,13 +23,13 @@ export default {
   data () {
     return {
       prefix: 'crud/crm',
-      path: 'person-comments',
+      path: 'person-contributions',
       paths: {
-        i: 'crm/person-comments',
-        st: 'crm/person-comments',
-        u: 'crm/person-comments',
+        i: 'contribution/people_contributions',
+        st: 'contribution/people_contributions',
+        u: 'contribution/people_contributions',
       },
-      pageTitle: 'crm.personComments',
+      pageTitle: 'contribution.personsContributions',
     }
   },
   components: {
