@@ -1,8 +1,8 @@
-import PersonContributions from './routes/contributions/Index.vue'
+import PersonContributions from './routes/person-contributions/Index.vue'
 
 let crmRoutes = [
   {
-    path: 'persons-contributions',
+    path: 'person-contributions',
     name: 'personsContributions',
     component: PersonContributions,
   },
