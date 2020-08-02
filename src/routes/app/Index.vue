@@ -168,10 +168,10 @@ export default {
         ],
       },
       {
-        icon: 'contribution',
+        icon: 'people',
         text: 'contribution.name',
         model: false,
-        guard: 'CONTRIBUTION',
+        guard: 'CONTRIB',
         route: '/persons-contributions',
         children: [
           {

@@ -31,7 +31,7 @@ let appRoutes = [
     name: 'contribution',
     component: Contribution,
     children: contributionRoutes,
-    meta: { guard: 'CONTRIBUTION' },
+    meta: { guard: 'CONTRIB' },
   },
 ]
 

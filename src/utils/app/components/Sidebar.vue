@@ -67,6 +67,8 @@
     <v-list dense>
       <!--Цикл по основным элементам лего меню -->
       <template v-for="(item) in items">
+        {{item.guard}}
+
         <!-- Для вложенных циклов-->
         <v-list-group
           v-if="checkPermission(item.guard)"
