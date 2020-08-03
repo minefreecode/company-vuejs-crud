@@ -63,7 +63,7 @@
     >
       <template slot="left">
         <a href="https://vue-crud.github.io/" target="_blank" style="color:white;text-decoration:none;">
-          <v-icon color="white">help</v-icon>  vue-crud.github.io
+          <v-icon color="white">help</v-icon>  https://github.com/avpavlow/company-vuejs-crud
         </a>
       </template>
       <template slot="center">
@@ -164,6 +164,19 @@ export default {
           {
             text: 'admin.userPermissions',
             route: '/user-permissions',
+          },
+        ],
+      },
+      {
+        icon: 'people',
+        text: 'contribution.name',
+        model: false,
+        guard: 'CONTRIB',
+        route: '/contribution',
+        children: [
+          {
+            text: 'contribution.personsContributions',
+            route: '/person-contributions',
           },
         ],
       },
