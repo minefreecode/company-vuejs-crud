@@ -36,7 +36,7 @@
           v-on="on"
           icon dark fab
         >
-          <v-icon>translate</v-icon>
+          <v-icon>language</v-icon>
         </v-btn>
       </template>
       <v-list>

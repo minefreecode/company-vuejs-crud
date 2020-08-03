@@ -22,8 +22,8 @@ export default {
   ],
   data () {
     return {
-      prefix: 'crud/CONTRIB',
-
+      prefix: 'contribution',
+      path: 'people_contributions',
       paths: {
         i: 'contribution/people_contributions',
         st: 'contribution/people_contributions',
