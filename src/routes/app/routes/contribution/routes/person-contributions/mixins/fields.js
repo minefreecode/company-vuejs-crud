@@ -23,7 +23,7 @@ export default {
           },
         },
         {
-          type: 'textarea',
+          type: 'input',
           column: 'title',
           text: this.$t('fields.title'),
           name: 'title',
